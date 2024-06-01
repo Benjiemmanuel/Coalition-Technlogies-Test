@@ -1,0 +1,129 @@
+.overallContainer {
+  display: flex;
+  width: 270px;
+  margin-bottom: 20px;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  background-color: #ffffff;
+  font-family: sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profileHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImage {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.detailItemList {
+  display: flex;
+  align-items: start;
+}
+
+.detailItem img {
+  width: 28px;
+  height: 28px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.detailItem div {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailItem p {
+  margin: 0;
+  font-size: 14px;
+  color: #072635;
+}
+
+.labResults {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow-y: auto;
+  padding-bottom: 10px;
+  max-height: 130px;
+  box-shadow: 0 2px 4px rgba(20, 17, 17, 0.1);
+}
+.labResults::-webkit-scrollbar {
+  margin-top: 10px;
+  width: 5px;
+  background-color: #c5c3c3;
+  border-radius: 5px;
+}
+
+.labResults::-webkit-scrollbar-thumb {
+  background-color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  height: 4px;
+  border-radius: 4px;
+}
+
+.labResults::-webkit-scrollbar-thumb:hover {
+  background-color: #000000;
+}
+.labResults h3 {
+  font-size: 18px;
+
+  padding: 10px 20px;
+  margin: 0px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+}
+
+.labResultsList {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+}
+
+.labResultItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.labResultItem span {
+  font-size: 14px;
+  color: #072635;
+}
+
+.labResultItem img {
+  width: 20px;
+  color: #000000;
+  cursor: pointer;
+  margin-right: 10px;
+  height: 20px;
+}

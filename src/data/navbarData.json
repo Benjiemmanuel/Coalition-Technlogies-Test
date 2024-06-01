@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Overview",
+      "icon": "home"
+    },
+    {
+      "name": "Patients",
+      "icon": "group"
+    },
+    {
+      "name": "Schedule",
+      "icon": "calendar_today"
+    },
+    {
+      "name": "Message",
+      "icon": "chat_bubble"
+    },
+    {
+      "name": "Transactions",
+      "icon": "credit_card"
+    }
+  ]
+  

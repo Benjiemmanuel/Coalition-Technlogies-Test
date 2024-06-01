@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+}
+
+.navbarContainer {
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.content {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}

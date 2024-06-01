@@ -1,0 +1,16 @@
+.container {
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 75vh;
+    padding-left:18px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-size: 16px;
+    text-align: start;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
